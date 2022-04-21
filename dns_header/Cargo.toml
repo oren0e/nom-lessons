@@ -1,0 +1,11 @@
+[package]
+name = "dns_header"
+version = "0.1.0"
+authors = ["oren0e <none>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nom = { version = "7.1.0", features = ["alloc"] }
+anyhow = "1.0.57"
